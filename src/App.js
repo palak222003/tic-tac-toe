@@ -49,9 +49,9 @@ export default function App() {
 
     for (let [a, b, c] of lines) {
       if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
-        document.getElementById(`square-${a}`).style.backgroundColor = "#F4C2C2";
-        document.getElementById(`square-${b}`).style.backgroundColor = "#F4C2C2";
-        document.getElementById(`square-${c}`).style.backgroundColor = "#F4C2C2";
+        document.getElementById(`square-${a}`).style.backgroundColor = "#e66ab4";
+        document.getElementById(`square-${b}`).style.backgroundColor = "#e66ab4";
+        document.getElementById(`square-${c}`).style.backgroundColor = "#e66ab4";
       }
     }
   }
@@ -64,7 +64,7 @@ export default function App() {
     for (let i = 0; i < 9; i++) {
       const box = document.getElementById(`square-${i}`);
       box.innerText = "";
-      // box.style.backgroundColor = "#d770aee6";
+      box.style.backgroundColor = "#f5e7f1";
     }
   }
 
